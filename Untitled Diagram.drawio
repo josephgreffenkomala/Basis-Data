@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2014" dy="1649" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1913" dy="1601" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,7 +146,7 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kr2jglsmP7GTfW8Z2Y7Y-126" value="album_id char(50) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="kr2jglsmP7GTfW8Z2Y7Y-163">
+        <mxCell id="kr2jglsmP7GTfW8Z2Y7Y-126" value="album_id int " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="kr2jglsmP7GTfW8Z2Y7Y-163">
           <mxGeometry x="706" y="563" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -189,6 +189,16 @@
               <mxPoint x="154" y="356" />
               <mxPoint x="137" y="359" />
               <mxPoint x="186" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kr2jglsmP7GTfW8Z2Y7Y-251" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="kr2jglsmP7GTfW8Z2Y7Y-163" source="kr2jglsmP7GTfW8Z2Y7Y-84">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="484" y="292" as="sourcePoint" />
+            <mxPoint x="1043" y="605" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="562" y="181" />
+              <mxPoint x="562" y="605" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -562,9 +572,6 @@
             <mxPoint x="401" y="374" as="sourcePoint" />
             <mxPoint x="462" y="383" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="kr2jglsmP7GTfW8Z2Y7Y-210" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="842" y="213" width="40" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
