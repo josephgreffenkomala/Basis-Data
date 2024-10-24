@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.16">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="698" dy="329" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="209" dy="329" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LZXb4LByyp9D54AwNMyH-19" value="BandID char(50) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="LZXb4LByyp9D54AwNMyH-17">
+        <mxCell id="LZXb4LByyp9D54AwNMyH-19" value="RTSSN char(50) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="LZXb4LByyp9D54AwNMyH-17">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -57,7 +57,7 @@
             <mxRectangle width="30" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LZXb4LByyp9D54AwNMyH-22" value="BandName char(50)&lt;br&gt;BandAddress&lt;br&gt;BandContact&lt;br&gt;BandPhone&lt;br&gt;BandNoOf Shows&lt;br&gt;Rents&lt;br&gt;PerformsIn" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=7;labelBorderColor=none;html=1;spacingTop=0;spacing=2;spacingBottom=0;spacingRight=0;" vertex="1" parent="LZXb4LByyp9D54AwNMyH-20">
+        <mxCell id="LZXb4LByyp9D54AwNMyH-22" value="RTName&lt;div&gt;RTAddress&lt;/div&gt;&lt;div&gt;RTPhone&lt;/div&gt;&lt;div&gt;Repairs&lt;/div&gt;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=7;labelBorderColor=none;html=1;spacingTop=0;spacing=2;spacingBottom=0;spacingRight=0;" vertex="1" parent="LZXb4LByyp9D54AwNMyH-20">
           <mxGeometry x="30" width="220" height="120" as="geometry">
             <mxRectangle width="220" height="120" as="alternateBounds" />
           </mxGeometry>
@@ -73,7 +73,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LZXb4LByyp9D54AwNMyH-26" value="BandID char(50) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="LZXb4LByyp9D54AwNMyH-24">
+        <mxCell id="LZXb4LByyp9D54AwNMyH-26" value="ShowID char(50) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="LZXb4LByyp9D54AwNMyH-24">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -86,7 +86,7 @@
             <mxRectangle width="30" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LZXb4LByyp9D54AwNMyH-29" value="BandName char(50)&lt;br&gt;BandAddress&lt;br&gt;BandContact&lt;br&gt;BandPhone&lt;br&gt;BandNoOf Shows&lt;br&gt;Rents&lt;br&gt;PerformsIn" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=7;labelBorderColor=none;html=1;spacingTop=0;spacing=2;spacingBottom=0;spacingRight=0;" vertex="1" parent="LZXb4LByyp9D54AwNMyH-27">
+        <mxCell id="LZXb4LByyp9D54AwNMyH-29" value="ShowName&lt;div&gt;ShowType&lt;/div&gt;&lt;div&gt;Show&lt;/div&gt;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=7;labelBorderColor=none;html=1;spacingTop=0;spacing=2;spacingBottom=0;spacingRight=0;" vertex="1" parent="LZXb4LByyp9D54AwNMyH-27">
           <mxGeometry x="30" width="220" height="120" as="geometry">
             <mxRectangle width="220" height="120" as="alternateBounds" />
           </mxGeometry>
